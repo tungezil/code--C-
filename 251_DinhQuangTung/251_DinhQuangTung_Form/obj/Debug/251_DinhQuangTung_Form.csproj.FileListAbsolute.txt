@@ -1,0 +1,10 @@
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\bin\Debug\251_DinhQuangTung_Form.exe.config
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\bin\Debug\251_DinhQuangTung_Form.exe
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\bin\Debug\251_DinhQuangTung_Form.pdb
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\251_DinhQuangTung_Form.csproj.AssemblyReference.cache
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\_251_DinhQuangTung_Form.Form1.resources
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\_251_DinhQuangTung_Form.Properties.Resources.resources
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\251_DinhQuangTung_Form.csproj.GenerateResource.cache
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\251_DinhQuangTung_Form.csproj.CoreCompileInputs.cache
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\251_DinhQuangTung_Form.exe
+D:\Learn\project_visual\251_DinhQuangTung\251_DinhQuangTung_Form\obj\Debug\251_DinhQuangTung_Form.pdb
