@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:63527/ql_nhanvien_service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ql_nhanvien" />
+  <xs:element name="getAll">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ql_nhanvien" minOccurs="0" name="getAllResult" nillable="true" type="q1:ArrayOfNhanvien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="search">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="manv" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="searchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ql_nhanvien" minOccurs="0" name="searchResult" nillable="true" type="q2:ArrayOfNhanvien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="create">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="manv" type="xs:int" />
+        <xs:element minOccurs="0" name="tennv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="phongban" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gioitinh" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="luong" type="xs:int" />
+        <xs:element minOccurs="0" name="thuong" type="xs:int" />
+        <xs:element minOccurs="0" name="sdt" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="createResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="update">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="manv" type="xs:int" />
+        <xs:element minOccurs="0" name="tennv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="phongban" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gioitinh" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="luong" type="xs:int" />
+        <xs:element minOccurs="0" name="thuong" type="xs:int" />
+        <xs:element minOccurs="0" name="sdt" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updateResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delete">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="manv" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

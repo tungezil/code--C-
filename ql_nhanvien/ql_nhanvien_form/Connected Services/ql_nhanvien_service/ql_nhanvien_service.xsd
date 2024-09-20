@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ql_nhanvien" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ql_nhanvien" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfNhanvien">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Nhanvien" nillable="true" type="tns:Nhanvien" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNhanvien" nillable="true" type="tns:ArrayOfNhanvien" />
+  <xs:complexType name="Nhanvien">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="gioitinh" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="luong" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="manv" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phongban" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sdt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tennv" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="thuong" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Nhanvien" nillable="true" type="tns:Nhanvien" />
+</xs:schema>

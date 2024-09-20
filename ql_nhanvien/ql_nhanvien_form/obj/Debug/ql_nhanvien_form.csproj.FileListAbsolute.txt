@@ -1,0 +1,10 @@
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\bin\Debug\ql_nhanvien_form.exe.config
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\bin\Debug\ql_nhanvien_form.exe
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\bin\Debug\ql_nhanvien_form.pdb
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.csproj.AssemblyReference.cache
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.Form1.resources
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.Properties.Resources.resources
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.csproj.GenerateResource.cache
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.csproj.CoreCompileInputs.cache
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.exe
+D:\Learn\project_visual\ql_nhanvien\ql_nhanvien_form\obj\Debug\ql_nhanvien_form.pdb

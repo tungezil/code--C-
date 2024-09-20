@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learn\\project_visual\\ql_nhanvien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECCEB629-BF49-4361-8154-F7B0CB7BD062}|ql_nhanvien_form\\ql_nhanvien_form.csproj|d:\\learn\\project_visual\\ql_nhanvien\\ql_nhanvien_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECCEB629-BF49-4361-8154-F7B0CB7BD062}|ql_nhanvien_form\\ql_nhanvien_form.csproj|solutionrelative:ql_nhanvien_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229EF33-415F-4BD7-8470-D05DAE4BC9AA}|ql_nhanvien\\ql_nhanvien.csproj|D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\iql_nhanvien_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229EF33-415F-4BD7-8470-D05DAE4BC9AA}|ql_nhanvien\\ql_nhanvien.csproj|solutionrelative:ql_nhanvien\\iql_nhanvien_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229EF33-415F-4BD7-8470-D05DAE4BC9AA}|ql_nhanvien\\ql_nhanvien.csproj|D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\ql_nhanvien_service.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229EF33-415F-4BD7-8470-D05DAE4BC9AA}|ql_nhanvien\\ql_nhanvien.csproj|solutionrelative:ql_nhanvien\\ql_nhanvien_service.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECCEB629-BF49-4361-8154-F7B0CB7BD062}|ql_nhanvien_form\\ql_nhanvien_form.csproj|D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECCEB629-BF49-4361-8154-F7B0CB7BD062}|ql_nhanvien_form\\ql_nhanvien_form.csproj|solutionrelative:ql_nhanvien_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229EF33-415F-4BD7-8470-D05DAE4BC9AA}|ql_nhanvien\\ql_nhanvien.csproj|D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229EF33-415F-4BD7-8470-D05DAE4BC9AA}|ql_nhanvien\\ql_nhanvien.csproj|solutionrelative:ql_nhanvien\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Iql_nhanvien_service.cs",
+              "DocumentMoniker": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\Iql_nhanvien_service.cs",
+              "RelativeDocumentMoniker": "ql_nhanvien\\Iql_nhanvien_service.cs",
+              "ToolTip": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\Iql_nhanvien_service.cs",
+              "RelativeToolTip": "ql_nhanvien\\Iql_nhanvien_service.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:35:42.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nhanvien.cs",
+              "DocumentMoniker": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\Nhanvien.cs",
+              "RelativeDocumentMoniker": "ql_nhanvien\\Nhanvien.cs",
+              "ToolTip": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\Nhanvien.cs",
+              "RelativeToolTip": "ql_nhanvien\\Nhanvien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:35:42.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ql_nhanvien_service.svc.cs",
+              "DocumentMoniker": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\ql_nhanvien_service.svc.cs",
+              "RelativeDocumentMoniker": "ql_nhanvien\\ql_nhanvien_service.svc.cs",
+              "ToolTip": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien\\ql_nhanvien_service.svc.cs",
+              "RelativeToolTip": "ql_nhanvien\\ql_nhanvien_service.svc.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAIwG8AAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:35:24.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien_form\\Form1.cs",
+              "RelativeDocumentMoniker": "ql_nhanvien_form\\Form1.cs",
+              "ToolTip": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien_form\\Form1.cs",
+              "RelativeToolTip": "ql_nhanvien_form\\Form1.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwGcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:25:26.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien_form\\Form1.cs",
+              "RelativeDocumentMoniker": "ql_nhanvien_form\\Form1.cs",
+              "ToolTip": "D:\\Learn\\project_visual\\ql_nhanvien\\ql_nhanvien_form\\Form1.cs [Design]",
+              "RelativeToolTip": "ql_nhanvien_form\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:42:16.667Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

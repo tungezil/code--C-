@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="ql_nhanvien_service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:63527/ql_nhanvien_service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:63527/ql_nhanvien_service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:63527/ql_nhanvien_service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ql_nhanvien" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Iql_nhanvien_service_getAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAll" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_getAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_search_InputMessage">
+    <wsdl:part name="parameters" element="tns:search" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_search_OutputMessage">
+    <wsdl:part name="parameters" element="tns:searchResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_create_InputMessage">
+    <wsdl:part name="parameters" element="tns:create" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_create_OutputMessage">
+    <wsdl:part name="parameters" element="tns:createResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_update_InputMessage">
+    <wsdl:part name="parameters" element="tns:update" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:delete" />
+  </wsdl:message>
+  <wsdl:message name="Iql_nhanvien_service_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Iql_nhanvien_service">
+    <wsdl:operation name="getAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iql_nhanvien_service/getAll" message="tns:Iql_nhanvien_service_getAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iql_nhanvien_service/getAllResponse" message="tns:Iql_nhanvien_service_getAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="search">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iql_nhanvien_service/search" message="tns:Iql_nhanvien_service_search_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iql_nhanvien_service/searchResponse" message="tns:Iql_nhanvien_service_search_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iql_nhanvien_service/create" message="tns:Iql_nhanvien_service_create_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iql_nhanvien_service/createResponse" message="tns:Iql_nhanvien_service_create_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iql_nhanvien_service/update" message="tns:Iql_nhanvien_service_update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iql_nhanvien_service/updateResponse" message="tns:Iql_nhanvien_service_update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iql_nhanvien_service/delete" message="tns:Iql_nhanvien_service_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iql_nhanvien_service/deleteResponse" message="tns:Iql_nhanvien_service_delete_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_Iql_nhanvien_service" type="tns:Iql_nhanvien_service">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAll">
+      <soap:operation soapAction="http://tempuri.org/Iql_nhanvien_service/getAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="search">
+      <soap:operation soapAction="http://tempuri.org/Iql_nhanvien_service/search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <soap:operation soapAction="http://tempuri.org/Iql_nhanvien_service/create" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap:operation soapAction="http://tempuri.org/Iql_nhanvien_service/update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="http://tempuri.org/Iql_nhanvien_service/delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ql_nhanvien_service">
+    <wsdl:port name="BasicHttpBinding_Iql_nhanvien_service" binding="tns:BasicHttpBinding_Iql_nhanvien_service">
+      <soap:address location="http://localhost:63527/ql_nhanvien_service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
